@@ -4,12 +4,12 @@
 -- @copyright 2020
 -- @license https://opensource.org/licenses/MIT
 
-local BASE = (...):gsub("%.[^%.]+$", "")
+local BASE = (...):gsub("%.init$", "")
 
 return {
   _NAME = "geomath",
   _DESCRIPTION = "2D math module for geometric calculations",
-  _VERSION = "1.0.0",
+  _VERSION = "1.0.1",
   _URL = "https://github.com/binaryfs/lua-geomath",
   _LICENSE = "MIT License",
   _COPYRIGHT = "Copyright (c) 2020 Fabian Staacke",

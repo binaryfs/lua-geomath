@@ -5,7 +5,7 @@
 -- @copyright 2020
 -- @license https://opensource.org/licenses/MIT
 
-local BASE = (...):gsub("%.[^%.]+$", "")
+local BASE = (...):gsub("%.polygon$", "")
 local vector = require(BASE .. ".vector")
 local line = require(BASE .. ".line")
 local utils = require(BASE .. ".utils")

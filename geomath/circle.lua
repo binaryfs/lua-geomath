@@ -5,7 +5,7 @@
 -- @copyright 2020
 -- @license https://opensource.org/licenses/MIT
 
-local BASE = (...):gsub("%.[^%.]+$", "")
+local BASE = (...):gsub("%.circle$", "")
 local vector = require(BASE .. ".vector")
 
 local abs, sqrt = math.abs, math.sqrt

@@ -5,7 +5,7 @@
 -- @copyright 2020
 -- @license https://opensource.org/licenses/MIT
 
-local BASE = (...):gsub("%.[^%.]+$", "")
+local BASE = (...):gsub("%.ellipse$", "")
 local circle = require(BASE .. ".circle")
 
 --- Test if a given point is contained within an ellipse (excluding its borders).
